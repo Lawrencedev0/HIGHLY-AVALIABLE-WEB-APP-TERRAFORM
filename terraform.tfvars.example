@@ -1,0 +1,21 @@
+aws_region         = "us-east-1"
+project_name       = "ha-web-app"
+
+# Keep these two AZs in the same AWS region.
+availability_zones = ["us-east-1a", "us-east-1b"]
+
+instance_type    = "t3.micro"
+desired_capacity = 2
+min_size         = 2
+max_size         = 4
+
+db_name          = "appdb"
+db_username      = "appadmin"
+db_password      = "CHANGE_THIS_TO_A_SECURE_PASSWORD"
+db_instance_class = "db.t3.micro"
+
+# Optional:
+# domain_name = "example.com"
+
+# Optional. Must be globally unique:
+# bucket_name = "my-unique-static-bucket-name"
