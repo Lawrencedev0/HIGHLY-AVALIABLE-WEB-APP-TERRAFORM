@@ -42,3 +42,4 @@ output "cloudfront_domain_name" {
 output "route53_record" {
   value = var.domain_name == null ? null : var.domain_name
 }
+
