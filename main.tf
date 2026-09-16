@@ -696,3 +696,4 @@ resource "aws_cloudwatch_metric_alarm" "alb_5xx" {
 
   tags = local.common_tags
 }
+
