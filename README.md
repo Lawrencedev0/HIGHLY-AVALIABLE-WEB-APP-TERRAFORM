@@ -96,4 +96,4 @@ When finished testing:
 
     terraform destroy
 
-Review the resources carefully before confirming. RDS and other production resources can contain data.
+Review the resources carefully before confirming. RDS and other production resources can contain data..
