@@ -18,4 +18,4 @@ db_instance_class = "db.t3.micro"
 # domain_name = "example.com"
 
 # Optional. Must be globally unique:
-# bucket_name = "my-unique-static-bucket-name"
+# bucket_name = "my-unique-static-bucket-name" 
